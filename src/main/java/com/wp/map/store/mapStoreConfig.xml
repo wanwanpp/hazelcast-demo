@@ -3,6 +3,7 @@
 	xsi:schemaLocation="http://www.hazelcast.com/schema/config hazelcast-config-3.6.xsd"
 	xmlns="http://www.hazelcast.com/schema/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<map name="demo">
+
 		<map-store enabled="true" initial-mode="EAGER">
 			<class-name>com.wp.map.store.MapStoreExample</class-name>
 			<write-delay-seconds>1</write-delay-seconds>
