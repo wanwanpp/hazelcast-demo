@@ -5,9 +5,9 @@
 	<map name="demo">
 		<map-store enabled="true" initial-mode="EAGER">
 			<class-name>com.wp.map.store.MapStoreExample</class-name>
-			<!--<write-delay-seconds>1</write-delay-seconds>-->
-			<!--<write-batch-size>1000</write-batch-size>-->
-			<!--<write-coalescing>true</write-coalescing>-->
+			<write-delay-seconds>1</write-delay-seconds>
+			<write-batch-size>1000</write-batch-size>
+			<write-coalescing>true</write-coalescing>
 		</map-store>
 	</map>
 </hazelcast>
